@@ -1,0 +1,154 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Главная страница
+        link(rel="stylesheet", href="css/libs.min.css")
+        link(rel="stylesheet", href="css/style.min.css")
+    body 
+        .wrapper
+            include components/header/header.pug 
+            main.main
+                .section-age
+                    .container
+                        .section-age__logo 
+                            img(src="img/logo/logoColor.png", alt="Логотип Jet")
+                            .help__tag МИГАЕТ
+                        .section-age__content 
+                            .section-age__content-share
+                                img(src="img/icons/Shape.png", alt="Круглый треугольник")
+                                .help__tag ВРАЩАЕТСЯ
+                            .section-age__content-share.section-age__content-share-trans
+                                img(src="img/icons/Shape.png", alt="Круглый треугольник")
+                            .section-age__content-text1.section-age__content-text1_back 30 ЛЕТ
+                            .section-age__content-text1 30 ЛЕТ
+                            .section-age__content-text2 ИНФОСИСТЕМЫ<br/>ДЖЕТ
+                            .section-age__content-tag-contour
+                            .section-age__content-tag.js-section-age__content-tag СПАСИБО, ЧТО ВЫ С НАМИ!
+                                .section-age__content-tag-pin.section-age__content-tag-pin_left.js-pin_left
+                                    img(src="img/tools/pin.png", alt="Гвоздь")
+                                .section-age__content-tag-pin.section-age__content-tag-pin_right.js-pin_right
+                                    img(src="img/tools/pin.png", alt="Гвоздь")
+                                .section-age__content-tag-hammer.js-hammer
+                                    img(src="img/tools/hammer.png", alt="Молоток")
+                                .help__tag ПРИБИВАЕТСЯ
+
+                .section-representation
+                    .container
+                        .section-representation__left
+                            .section-representation__left-scale
+                                .section-representation__left-scale-text 1991
+                                    .section-representation__left-scale-text_first
+                                .section-representation__left-scale-text 1994
+                                .section-representation__left-scale-text 1997
+                                .section-representation__left-scale-text 2000
+                                .section-representation__left-scale-text 2003
+                                .section-representation__left-scale-text 2006
+                                .section-representation__left-scale-text 2009
+                                .section-representation__left-scale-text 2012
+                                .section-representation__left-scale-text 2015
+                                .section-representation__left-scale-text 2018
+                                .section-representation__left-scale-text 2021
+                                    .section-representation__left-scale-text_last
+                                        .section-representation__left-scale-dotted
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="2" height="685" viewBox="0 0 2 685" fill="none">
+                                                <path d="M0.99997 1L1.00003 684" stroke="url(#paint0_linear_24_178)" stroke-linecap="round" stroke-dasharray="6 6"/>
+                                                <defs>
+                                                <linearGradient id="paint0_linear_24_178" x1="1.00017" y1="360" x2="1.00027" y2="643" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="white"/>
+                                                <stop offset="1" stop-color="white" stop-opacity="0"/>
+                                                </linearGradient>
+                                                </defs>
+                                            </svg>
+                                            .section-representation__left-scale-mouse
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="27" height="39" viewBox="0 0 27 39" fill="none">
+                                                    <rect x="0.5" y="0.5" width="25.7222" height="38" rx="12.8611" stroke="white"/>
+                                                    <rect x="12.2778" y="9.38892" width="2.16667" height="5.05556" rx="1.08333" fill="white"/>
+                                                </svg>
+                                .section-representation__left-scale_blackout
+                            .section-representation__left-content 
+                                .section-representation__left-content-top.growth-years
+                                    .growth-years__top 
+                                        .growth-years__top-below 1991
+                                        .growth-years__top-over 1991 <span>год</span>
+                                    .growth-years__bottom
+                                        .growth-years__bottom-icon
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="68" height="32" viewBox="0 0 68 32" fill="none">
+                                                <path d="M1.18752 32V29.0736C1.18434 27.6158 1.67565 26.2038 2.57473 25.0866C3.47381 23.9695 4.72286 23.2191 6.1014 22.9679C13.4401 21.6774 20.9345 21.6774 28.2732 22.9679C29.6518 23.2191 30.9008 23.9695 31.7999 25.0866C32.699 26.2038 33.1903 27.6158 33.1871 29.0736L33.1875 32" stroke="white" stroke-width="1.75507" stroke-miterlimit="10"/>
+                                                <path d="M17.1875 16C21.6058 16 25.1875 12.4183 25.1875 8C25.1875 3.58172 21.6058 0 17.1875 0C12.7692 0 9.1875 3.58172 9.1875 8C9.1875 12.4183 12.7692 16 17.1875 16Z" fill="white" fill-opacity="0.26"/>
+                                                <path d="M37.1875 23.4798C37.6791 23.2307 38.2033 23.0566 38.7437 22.9629C46.1808 21.679 53.7739 21.679 61.211 22.9629C62.6061 23.215 63.87 23.9651 64.7803 25.0814C65.6906 26.1977 66.1889 27.6085 66.1875 29.0654V32" stroke="white" stroke-width="1.75507" stroke-miterlimit="10"/>
+                                                <path d="M50.1875 16C54.6058 16 58.1875 12.4183 58.1875 8C58.1875 3.58172 54.6058 0 50.1875 0C45.7692 0 42.1875 3.58172 42.1875 8C42.1875 12.4183 45.7692 16 50.1875 16Z" fill="white" fill-opacity="0.26"/>
+                                            </svg>
+                                        .growth-years__bottom-text <span>2</span> сотрудника
+                                .section-representation__left-content-bottom.growth-years
+                                    .growth-years__top 
+                                        .growth-years__top-below 2021
+                                        .growth-years__top-over 2021 <span>год</span>
+                                    .growth-years__bottom
+                                        .growth-years__bottom-icon
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="77" height="25" viewBox="0 0 77 25" fill="none">
+                                                <path d="M1.15626 24.6769V22.5105C1.15381 21.4313 1.53269 20.3859 2.22602 19.5589C2.91935 18.7318 3.88256 18.1763 4.94563 17.9904C10.6049 17.0349 16.3843 17.0349 22.0435 17.9904C23.1066 18.1763 24.0698 18.7318 24.7632 19.5589C25.4565 20.3859 25.8354 21.4313 25.8329 22.5105L25.8332 24.6769" stroke="white" stroke-width="1.75507" stroke-miterlimit="10"/>
+                                                <path d="M13.4948 12.3385C16.902 12.3385 19.664 9.57642 19.664 6.16924C19.664 2.76206 16.902 0 13.4948 0C10.0876 0 7.32556 2.76206 7.32556 6.16924C7.32556 9.57642 10.0876 12.3385 13.4948 12.3385Z" fill="#FA195C"/>
+                                                <path d="M53.1138 18.372C53.488 18.1877 53.887 18.0588 54.2983 17.9895C59.9591 17.0395 65.7387 17.0395 71.3995 17.9895C72.4614 18.176 73.4235 18.7312 74.1163 19.5572C74.8092 20.3833 75.1885 21.4273 75.1874 22.5054V24.677" stroke="white" stroke-width="1.75507" stroke-miterlimit="10"/>
+                                                <path d="M62.8488 12.3385C66.256 12.3385 69.018 9.57642 69.018 6.16924C69.018 2.76206 66.256 0 62.8488 0C59.4416 0 56.6796 2.76206 56.6796 6.16924C56.6796 9.57642 59.4416 12.3385 62.8488 12.3385Z" fill="#00C3FF"/>
+                                                <path d="M28.4365 18.372C28.8107 18.1877 29.2097 18.0588 29.621 17.9895C35.2818 17.0395 41.0614 17.0395 46.7222 17.9895C47.7841 18.176 48.7461 18.7312 49.439 19.5572C50.1319 20.3833 50.5112 21.4273 50.5101 22.5054V24.677" stroke="white" stroke-width="1.75507" stroke-miterlimit="10"/>
+                                                <path d="M38.1715 12.3385C41.5787 12.3385 44.3407 9.57642 44.3407 6.16924C44.3407 2.76206 41.5787 0 38.1715 0C34.7643 0 32.0023 2.76206 32.0023 6.16924C32.0023 9.57642 34.7643 12.3385 38.1715 12.3385Z" fill="#00C3FF"/>
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="77" height="25" viewBox="0 0 77 25" fill="none">
+                                                <path d="M1.15626 24.6769V22.5105C1.15381 21.4313 1.53269 20.3859 2.22602 19.5589C2.91935 18.7318 3.88256 18.1763 4.94563 17.9904C10.6049 17.0349 16.3843 17.0349 22.0435 17.9904C23.1066 18.1763 24.0698 18.7318 24.7632 19.5589C25.4565 20.3859 25.8354 21.4313 25.8329 22.5105L25.8332 24.6769" stroke="white" stroke-width="1.75507" stroke-miterlimit="10"/>
+                                                <path d="M13.4948 12.3385C16.902 12.3385 19.664 9.57642 19.664 6.16924C19.664 2.76206 16.902 0 13.4948 0C10.0876 0 7.32556 2.76206 7.32556 6.16924C7.32556 9.57642 10.0876 12.3385 13.4948 12.3385Z" fill="#FA195C"/>
+                                                <path d="M53.1138 18.372C53.488 18.1877 53.887 18.0588 54.2983 17.9895C59.9591 17.0395 65.7387 17.0395 71.3995 17.9895C72.4614 18.176 73.4235 18.7312 74.1163 19.5572C74.8092 20.3833 75.1885 21.4273 75.1874 22.5054V24.677" stroke="white" stroke-width="1.75507" stroke-miterlimit="10"/>
+                                                <path d="M62.8488 12.3385C66.256 12.3385 69.018 9.57642 69.018 6.16924C69.018 2.76206 66.256 0 62.8488 0C59.4416 0 56.6796 2.76206 56.6796 6.16924C56.6796 9.57642 59.4416 12.3385 62.8488 12.3385Z" fill="#00C3FF"/>
+                                                <path d="M28.4365 18.372C28.8107 18.1877 29.2097 18.0588 29.621 17.9895C35.2818 17.0395 41.0614 17.0395 46.7222 17.9895C47.7841 18.176 48.7461 18.7312 49.439 19.5572C50.1319 20.3833 50.5112 21.4273 50.5101 22.5054V24.677" stroke="white" stroke-width="1.75507" stroke-miterlimit="10"/>
+                                                <path d="M38.1715 12.3385C41.5787 12.3385 44.3407 9.57642 44.3407 6.16924C44.3407 2.76206 41.5787 0 38.1715 0C34.7643 0 32.0023 2.76206 32.0023 6.16924C32.0023 9.57642 34.7643 12.3385 38.1715 12.3385Z" fill="#00C3FF"/>
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="77" height="26" viewBox="0 0 77 26" fill="none">
+                                                <path d="M1.15626 25.206V23.0395C1.15381 21.9603 1.53269 20.9149 2.22602 20.0879C2.91935 19.2609 3.88256 18.7054 4.94563 18.5194C10.6049 17.564 16.3843 17.564 22.0435 18.5194C23.1066 18.7054 24.0698 19.2609 24.7632 20.0879C25.4565 20.9149 25.8354 21.9603 25.8329 23.0395L25.8332 25.206" stroke="white" stroke-width="1.75507" stroke-miterlimit="10"/>
+                                                <path d="M13.4948 12.8675C16.902 12.8675 19.664 10.1055 19.664 6.69829C19.664 3.29112 16.902 0.529053 13.4948 0.529053C10.0876 0.529053 7.32556 3.29112 7.32556 6.69829C7.32556 10.1055 10.0876 12.8675 13.4948 12.8675Z" fill="#00C3FF"/>
+                                                <path d="M53.1138 18.9011C53.488 18.7168 53.887 18.5879 54.2983 18.5186C59.9591 17.5685 65.7387 17.5685 71.3995 18.5186C72.4614 18.7051 73.4235 19.2602 74.1163 20.0863C74.8092 20.9123 75.1885 21.9563 75.1874 23.0345V25.206" stroke="white" stroke-width="1.75507" stroke-miterlimit="10"/>
+                                                <path d="M62.8488 12.8675C66.256 12.8675 69.018 10.1055 69.018 6.69829C69.018 3.29112 66.256 0.529053 62.8488 0.529053C59.4416 0.529053 56.6796 3.29112 56.6796 6.69829C56.6796 10.1055 59.4416 12.8675 62.8488 12.8675Z" fill="#FA195C"/>
+                                                <path d="M28.4365 18.9011C28.8107 18.7168 29.2097 18.5879 29.621 18.5186C35.2818 17.5685 41.0614 17.5685 46.7222 18.5186C47.7841 18.7051 48.7461 19.2602 49.439 20.0863C50.1319 20.9123 50.5112 21.9563 50.5101 23.0345V25.206" stroke="white" stroke-width="1.75507" stroke-miterlimit="10"/>
+                                                <path d="M38.1715 12.8675C41.5787 12.8675 44.3407 10.1055 44.3407 6.69829C44.3407 3.29112 41.5787 0.529053 38.1715 0.529053C34.7643 0.529053 32.0023 3.29112 32.0023 6.69829C32.0023 10.1055 34.7643 12.8675 38.1715 12.8675Z" fill="#00C3FF"/>
+                                            </svg>
+                                        .growth-years__bottom-text <span>2000</span> сотрудников
+                                .section-representation__shape.section-representation__shape_blue
+                                    img(src="img/icons/ShapeBlue.png", alt="Голубой круглый треугольник")
+                                .section-representation__shape.section-representation__shape_pink
+                                    img(src="img/icons/ShapePink.png", alt="Розовый круглый треугольник")
+                        .section-representation__right
+                            .section-representation__right-foto 
+                                .section-representation__right-back
+                                .section-representation__right-circle
+                                    <svg width="684" height="801">
+                                        <ellipse rx="684" ry="801" cx="684" cy="801" fill="#00C5FF"/>
+                                    </svg>
+                                    .section-representation__right-circle-lava
+                                        img(src="img/icons/lavaGreen.png", alt="Лавовая капля")
+                                img.section-representation__right-foto-img(src="img/foto/EliseevV.png", alt="Владимир Елисеев")
+                                .section-representation__right-foto-quote.quote
+                                    .quote__contour
+                                        img.quote__contour-back(src="img/icons/quoteContour.png", alt="Контур цитаты")
+                                        img.quote__contour-white(src="img/icons/quoteBackWhite.png", alt="Белый фон цитаты")
+                                    .quote__content 
+                                        .quote__content-text_hidden «Мы прошли большой путь и искренне выражаем благодарность всем, кто был все эти годы с нами».
+                                        .quote__content-text
+                                        .quote__content-text-sign.quote__content-text-sign_hidden Владимир Елисеев
+                                        .quote__content-text-position.quote__content-text-position_hidden генеральный директор<br/>«Инфосистемы Джет»
+                                        .help__tag ГОВОРИТ
+                .section-slider-feedback
+                    .container
+                        h2.section-slider-feedback__header Люди и проекты, которые<br/> нас вдохновляют
+                            .help__tag ПОКАЗЫВАЕТ
+                        include components/sliderSwiperFeedback/sliderSwiperFeedback.pug
+                .section-memorable-moments
+                    .container
+                        include components/memorableMomentsDoubleSlider/memorableMomentsDoubleSlider.pug
+            include components/footer/footer.pug
+            include components/videoModalFrame/videoModalFrame.pug
+            .help__button ПОДСКАЗКИ
+                .help__button-closed X
+    
+        script(src="js/libs.min.js")
+        script(src="js/app.min.js")

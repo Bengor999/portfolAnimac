@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="css/libs.min.css?_v=20220116102817">
+    <link rel="stylesheet" href="css/style.min.css?_v=20220116102817">
+  </head>
+  <body> 
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__inner">
+            <div class="header__logo"><a class="header__logo-link" href="#"><svg width="89" height="58" viewBox="0 0 89 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_24_61)">
+<path d="M38.5721 12.9405C37.4991 14.6403 36.5925 16.4589 35.8683 18.3854C36.2277 18.6012 36.5764 18.8225 36.9036 19.0491C37.0539 19.1463 37.1987 19.2434 37.3435 19.3405L37.5206 19.4646C37.7352 19.6211 37.9927 19.8046 38.2609 20.0151C38.4809 20.177 38.7169 20.3658 38.9529 20.5601C39.0656 20.6464 39.1675 20.7274 39.2641 20.8191C39.3124 20.8515 39.3553 20.8947 39.4036 20.9378C39.4626 20.981 39.5162 21.0296 39.5699 21.0782C40.0152 21.4667 40.4229 21.8444 40.8038 22.233C41.3027 22.724 41.7909 23.2475 42.2469 23.7817C43.3788 19.4161 45.8841 15.6278 49.2746 12.9405H38.5721ZM61.4846 0H1.09442V8.60718H41.9357L41.925 8.61258L46.6674 8.63416H46.6781L49.0815 8.63956H49.0868L62.7989 8.68813C63.5822 8.74749 64.3493 8.84462 65.1058 8.99032C65.3311 8.66654 65.5778 8.35895 65.8461 8.06215C66.5167 7.30126 67.2302 6.59974 67.9705 5.94138C68.3889 5.57443 68.8235 5.22367 69.2634 4.8837C70.39 4.02028 71.5809 3.27559 72.8202 2.64421C72.8309 2.63882 72.8416 2.63342 72.8523 2.62802C72.8684 2.62263 72.8792 2.61723 72.8953 2.60644C69.4511 0.965947 65.5081 0 61.4846 0ZM88.646 24.521C87.9915 25.4816 87.176 26.3126 86.2372 26.9656C86.0065 27.1329 85.7651 27.2894 85.513 27.4297C85.3091 27.5484 85.0999 27.6563 84.8907 27.748C83.8124 28.2661 82.6375 28.5683 81.3715 28.6438C81.3768 28.7626 81.3768 28.8813 81.3768 29.0054C81.3768 40.2568 72.4715 49.3604 61.4846 49.3604C55.8463 49.3604 50.7606 46.9591 47.1502 43.1007C46.8605 44.412 46.4313 45.6855 45.9056 46.9159V46.9213C45.8305 47.0994 45.75 47.2774 45.6642 47.4555C45.5944 47.612 45.5193 47.7685 45.4442 47.9142C45.3852 48.0275 45.3369 48.1355 45.2833 48.238C45.2296 48.3405 45.176 48.4485 45.117 48.5564C44.8648 49.0367 44.5698 49.5493 44.2264 50.0943C44.0816 50.321 43.9475 50.5368 43.7919 50.7527L43.6846 50.9146L43.5934 51.0387C48.4001 55.3774 54.6554 58 61.4846 58C76.6827 58 89 45.0218 89 29.0054C89 27.5862 88.9249 25.9079 88.646 24.521Z" fill="white"/>
+<path d="M61.4847 3.61011C55.9484 3.61011 50.8305 5.47185 46.6997 8.61253L46.6782 8.63411L49.0816 8.6449L49.087 8.63951C49.1031 8.62872 49.1084 8.62332 49.1245 8.61253C52.7135 6.31908 56.9516 5.00237 61.4847 5.00237C63.7325 5.00237 65.9106 5.32615 67.9706 5.94133C68.3891 5.57438 68.8236 5.22362 69.2635 4.88365C66.8119 4.05261 64.1993 3.61011 61.4847 3.61011ZM42.2738 12.9404C40.584 15.045 39.216 17.4302 38.261 20.015C38.481 20.1769 38.717 20.3658 38.9531 20.56C39.0657 20.6464 39.1677 20.7273 39.2642 20.8191C39.3125 20.8515 39.3554 20.8946 39.4037 20.9378C40.4445 17.959 42.0539 15.2446 44.0817 12.9404H42.2738ZM86.2374 26.9655C86.0067 27.1328 85.7653 27.2893 85.5131 27.4296C85.3093 27.5483 85.1 27.6563 84.8908 27.748C84.923 28.1689 84.9284 28.5844 84.9284 29.0053C84.9284 42.2426 74.4136 52.9975 61.4847 52.9975C55.5138 52.9975 50.0526 50.6987 45.9057 46.9212C45.8306 47.0993 45.7501 47.2774 45.6643 47.4555C45.5946 47.612 45.5195 47.7685 45.4443 47.9142C45.3853 48.0275 45.3371 48.1354 45.2834 48.2379C49.6395 52.0747 55.2939 54.3952 61.4847 54.3952C75.1754 54.3952 86.3178 43.0089 86.3178 29.0053C86.3178 28.32 86.2964 27.6401 86.2374 26.9655Z" fill="#001031"/>
+<path d="M49.0815 8.64492C47.2253 9.83752 45.5408 11.2891 44.0816 12.9404H42.2737C43.5559 11.3269 45.0419 9.88069 46.6674 8.63953H46.6728L49.0815 8.64492Z" fill="white"/>
+<path d="M43.4056 38.2871V38.4976C43.3895 39.4203 43.309 40.3269 43.1535 41.2119C43.1106 41.4817 43.0569 41.7516 43.0033 42.016C42.7243 43.2841 42.3112 44.5145 41.764 45.6855C41.7157 45.7826 41.6675 45.896 41.6138 45.9985C41.528 46.182 41.4421 46.3546 41.3456 46.5381C41.1095 46.9752 40.852 47.4123 40.5838 47.8333C40.4872 48.0005 40.3853 48.1516 40.278 48.3081C40.2351 48.3621 40.1975 48.4322 40.1546 48.4916C40.1117 48.5456 40.0795 48.6049 40.0366 48.6535C39.0709 50.0188 37.9229 51.2707 36.6139 52.377C33.7599 54.8269 30.1549 56.6077 26.1313 57.4549C24.994 57.6978 23.8245 57.8651 22.6228 57.9406C22.0113 57.9946 21.3943 58.0108 20.772 58.0108C17.2528 58.0108 13.9213 57.3146 10.9547 56.0627C10.6274 55.9386 10.3163 55.7929 9.99976 55.6418C9.9783 55.6256 9.94611 55.6148 9.91392 55.5986C9.6135 55.4583 9.31845 55.3126 9.02875 55.1507C5.69192 53.3861 2.92375 50.8876 1.01392 47.9196C0.793972 47.6012 0.590115 47.272 0.41308 46.9375C0.380892 46.8673 0.337975 46.8025 0.300422 46.7432C0.193128 46.5489 0.0965642 46.3654 0 46.182L0.788608 45.0164V45.0056L1.12122 44.5199L1.75425 43.5917L1.96347 43.2841L2.29072 42.8039L2.5053 42.4909L2.57505 42.3883L3.16516 41.5087L4.44732 39.62L4.79602 39.1127C5.93333 41.3792 7.59102 43.4568 9.75835 45.3132C10.048 45.5722 10.3485 45.8096 10.6757 46.0471L10.7508 46.101C10.7991 46.1442 10.8635 46.1766 10.9118 46.2251C11.0566 46.3223 11.2175 46.4464 11.3785 46.5543C11.5931 46.7 11.8238 46.8457 12.0437 46.9752C13.2561 48.0005 14.6992 48.8154 16.2925 49.382C17.8751 49.9378 19.6079 50.2454 21.4212 50.2454C22.2098 50.2454 22.9876 50.1915 23.7387 50.0727C29.8008 49.1715 34.4681 44.7897 34.8007 39.4419C34.8221 39.2315 34.8275 39.021 34.8275 38.8159C34.8275 37.6503 34.6183 36.5279 34.2427 35.4702C33.6097 33.711 32.4885 32.1353 31.0186 30.8455C29.1195 29.1835 26.6356 28.0232 23.8514 27.5915C23.4436 27.516 22.2849 27.3973 22.2849 27.3973L24.699 23.8195C24.699 23.8195 25.4554 22.6593 25.4769 22.6593L27.612 19.4862C27.7354 19.5132 27.848 19.5564 27.9661 19.5887C28.7332 19.8046 29.4789 20.0636 30.2031 20.3604C31.4102 20.8299 32.5529 21.4019 33.6258 22.0549C33.937 22.2383 34.2481 22.4326 34.5432 22.6431C34.7095 22.7456 34.8758 22.8589 35.0367 22.9722C35.4605 23.2798 35.8736 23.5874 36.2706 23.922C36.4369 24.0461 36.5978 24.1864 36.748 24.3213C37.1021 24.6343 37.4401 24.9473 37.7727 25.2765C38.4808 25.9834 39.13 26.7173 39.7254 27.5106C39.8971 27.7426 40.0634 27.9693 40.2244 28.2175C40.3424 28.3902 40.455 28.5683 40.5731 28.741C40.9593 29.3453 41.3134 29.9767 41.6192 30.6189C41.8767 31.1369 42.102 31.6658 42.3059 32.2C42.853 33.684 43.2071 35.2544 43.3466 36.8679C43.3842 37.3319 43.4056 37.8068 43.4056 38.2871Z" fill="white"/>
+<path d="M32.0218 12.9404L27.6121 19.4862L25.4769 22.6593C25.4555 22.6593 24.6991 23.8195 24.6991 23.8195L22.285 27.3973H13.0363L22.7785 12.9404H32.0218Z" fill="white"/>
+<path d="M31.1581 8.60718L28.229 12.9405H26.7644L29.7042 8.60718H31.1581Z" fill="white"/>
+<path d="M26.7644 12.9404H28.2289L20.8096 23.8788H19.3235L26.7644 12.9404Z" fill="#001031"/>
+<path d="M34.4896 3.69653L31.1581 8.60722H29.7043L32.1989 4.93769H1.08911V3.69653H34.4896Z" fill="#001031"/>
+<path d="M39.3606 38.4436C39.3606 46.5381 33.1537 53.4347 25.1764 54.3143V54.3359L24.8277 54.3682C23.9264 54.4546 22.993 54.5032 22.0488 54.5032C16.9094 54.5032 12.4406 53.2296 8.7551 50.7095C7.63925 49.9486 6.60387 49.1284 5.65432 48.2434L5.64895 48.2596L5.39681 48.0167C5.32707 47.9466 5.25733 47.871 5.18759 47.8009C4.31315 46.9375 3.50845 46.0147 2.79495 45.0487L2.77885 45.0272C2.40869 44.5523 2.07071 44.0774 1.74347 43.5971L1.95269 43.2895L2.27994 42.8093L2.49452 42.4963C2.82713 43.0197 3.18657 43.527 3.56746 44.0396L3.57282 44.0342L3.76595 44.2986C3.78205 44.3148 3.79278 44.331 3.80887 44.3472C4.08783 44.7304 4.39362 45.0919 4.69404 45.4481C4.87644 45.6585 5.04811 45.869 5.23051 46.0633C6.44829 47.4016 7.84847 48.6211 9.43105 49.695C12.9181 52.064 17.1616 53.2728 22.0434 53.2728C22.832 53.2728 23.6153 53.2404 24.3878 53.1703L24.715 53.1433C32.2363 52.4903 38.1267 46.0309 38.1267 38.4598C38.1267 38.4274 38.1213 38.3896 38.1213 38.3465L38.116 38.2008C38.0892 36.7276 37.837 35.2813 37.3864 33.8837C35.6536 28.5791 30.7127 24.5534 25.0745 23.8681L24.6936 23.8249L25.4714 22.6647C31.5174 23.404 36.6514 27.6563 38.5612 33.4952C39.0548 35.0061 39.3177 36.5765 39.3445 38.163L39.3499 38.2601C39.3606 38.3465 39.3606 38.395 39.3606 38.4436Z" fill="#001031"/>
+<path d="M85.7383 8.2025C85.3145 7.09625 84.5367 6.10872 83.4208 5.46655C82.3049 4.82439 81.055 4.64631 79.8801 4.84058C75.5454 5.5421 71.8277 7.84095 69.0435 10.9654C68.169 11.9368 67.5843 13.1887 67.5896 14.5972C67.5896 15.8545 68.0778 16.9824 68.786 17.9159C71.1893 21.1106 75.98 23.8951 79.8962 24.2998C81.0657 24.4185 82.2889 24.2944 83.3886 23.6684C84.6171 22.9669 85.4111 21.8337 85.8242 20.5979C87.1492 16.637 87.2887 12.2875 85.7383 8.2025ZM74.8051 15.5308L74.7944 15.5415C74.3706 15.9463 73.8288 16.0002 73.3513 15.9786H73.0026L73.2386 15.099H73.6088C73.9843 15.1152 74.2472 14.9318 74.3545 14.6134L75.2611 11.273H74.2687L74.5101 10.388H76.4789L75.347 14.6134C75.245 14.9857 75.0519 15.2933 74.8051 15.5308ZM83.4101 15.9948L83.4584 16.038L81.4198 18.1858L81.6344 18.2883L81.6987 18.3207L80.5185 20.8839L80.4488 20.8516L80.084 20.6735L80.0357 20.6519L80.9262 18.693L80.2717 19.3783L80.2234 19.3298L79.923 19.06L79.8747 19.0114H79.8855L82.3318 16.4373L81.5807 16.9338L81.5324 17.1173H81.3125L78.4638 19.0168L78.4209 18.952L78.201 18.6175L78.1688 18.5635L78.1741 18.5581L80.4273 17.0579C79.9874 16.9122 79.746 16.4751 79.8855 15.9571H77.9274V15.9517H77.9005C76.7257 15.9517 75.98 15.2393 75.98 14.1115C75.98 12.8703 76.9993 11.5644 78.4692 11.5644C79.5529 11.5644 80.1591 12.2821 80.1591 13.1941C80.1591 13.4909 80.0625 13.8849 79.9499 14.1871L77.7342 14.1817L77.9703 13.3182H79.1881C79.2095 13.2643 79.2256 13.1671 79.2256 13.0646C79.2256 12.6923 78.9467 12.4332 78.4156 12.4332C77.745 12.444 77.069 12.9999 76.9295 13.7607C76.7847 14.5216 77.0207 15.0721 77.9274 15.0721H80.1269L81.0711 11.5644H82.0528L81.5753 13.3236H82.5464L82.3103 14.1871H81.3447L80.8726 15.9571C80.8297 16.1082 80.9155 16.2323 81.0657 16.2431H81.6505L84.2845 14.4893L84.3167 14.5378L84.542 14.8778L84.5849 14.9372L83.2438 15.8329L83.4101 15.9948Z" fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0_24_61">
+<rect width="89" height="58" fill="white"/>
+</clipPath>
+</defs>
+</svg></a></div>
+            <div class="header__burger"> <span></span></div>
+            <div class="header__nav">
+              <div class="header__nav-list"><a class="header__nav-list-link" href="#">ЦИФРЫ</a><a class="header__nav-list-link" href="#">ПОЗДРАВЛЕНИЯ</a><a class="header__nav-list-link" href="#">ФОТОХРОНИКА</a><a class="header__nav-list-link" href="#">ЗАКЛЮЧЕНИЕ</a>
+                <div class="help__tag">РАСТЁТ</div>
+              </div>
+              <div class="header__nav-lang"><a class="header__nav-lang-link header__nav-lang_rus js-header__nav-lang_active" href="#">RU</a><a class="header__nav-lang-link header__nav-lang_eng" href="#">EN</a></div>
+              <div class="header__nav-contacts"> <a class="header__nav-contacts-phone" href="tel:+79454117601">+7 (945) 411-76-01</a></div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <div class="section-age">
+          <div class="container">
+            <div class="section-age__logo"> <img src="img/logo/logoColor.png" alt="Логотип Jet">
+              <div class="help__tag">МИГАЕТ</div>
+            </div>
+            <div class="section-age__content"> 
+              <div class="section-age__content-share"><img src="img/icons/Shape.png" alt="Круглый треугольник">
+                <div class="help__tag">ВРАЩАЕТСЯ</div>
+              </div>
+              <div class="section-age__content-share section-age__content-share-trans"><img src="img/icons/Shape.png" alt="Круглый треугольник"></div>
+              <div class="section-age__content-text1 section-age__content-text1_back">30 ЛЕТ</div>
+              <div class="section-age__content-text1">30 ЛЕТ</div>
+              <div class="section-age__content-text2">ИНФОСИСТЕМЫ<br/>ДЖЕТ</div>
+              <div class="section-age__content-tag-contour"></div>
+              <div class="section-age__content-tag js-section-age__content-tag">СПАСИБО, ЧТО ВЫ С НАМИ!
+                <div class="section-age__content-tag-pin section-age__content-tag-pin_left js-pin_left"><img src="img/tools/pin.png" alt="Гвоздь"></div>
+                <div class="section-age__content-tag-pin section-age__content-tag-pin_right js-pin_right"><img src="img/tools/pin.png" alt="Гвоздь"></div>
+                <div class="section-age__content-tag-hammer js-hammer"><img src="img/tools/hammer.png" alt="Молоток"></div>
+                <div class="help__tag">ПРИБИВАЕТСЯ</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section-representation">
+          <div class="container">
+            <div class="section-representation__left">
+              <div class="section-representation__left-scale">
+                <div class="section-representation__left-scale-text">1991
+                  <div class="section-representation__left-scale-text_first"></div>
+                </div>
+                <div class="section-representation__left-scale-text">1994</div>
+                <div class="section-representation__left-scale-text">1997</div>
+                <div class="section-representation__left-scale-text">2000</div>
+                <div class="section-representation__left-scale-text">2003</div>
+                <div class="section-representation__left-scale-text">2006</div>
+                <div class="section-representation__left-scale-text">2009</div>
+                <div class="section-representation__left-scale-text">2012</div>
+                <div class="section-representation__left-scale-text">2015</div>
+                <div class="section-representation__left-scale-text">2018</div>
+                <div class="section-representation__left-scale-text">2021
+                  <div class="section-representation__left-scale-text_last">
+                    <div class="section-representation__left-scale-dotted"><svg xmlns="http://www.w3.org/2000/svg" width="2" height="685" viewBox="0 0 2 685" fill="none">
+<path d="M0.99997 1L1.00003 684" stroke="url(#paint0_linear_24_178)" stroke-linecap="round" stroke-dasharray="6 6"/>
+<defs>
+<linearGradient id="paint0_linear_24_178" x1="1.00017" y1="360" x2="1.00027" y2="643" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>
+                      <div class="section-representation__left-scale-mouse"><svg xmlns="http://www.w3.org/2000/svg" width="27" height="39" viewBox="0 0 27 39" fill="none">
+<rect x="0.5" y="0.5" width="25.7222" height="38" rx="12.8611" stroke="white"/>
+<rect x="12.2778" y="9.38892" width="2.16667" height="5.05556" rx="1.08333" fill="white"/>
+</svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="section-representation__left-scale_blackout"></div>
+              </div>
+              <div class="section-representation__left-content"> 
+                <div class="section-representation__left-content-top growth-years">
+                  <div class="growth-years__top"> 
+                    <div class="growth-years__top-below">1991</div>
+                    <div class="growth-years__top-over">1991 <span>год</span></div>
+                  </div>
+                  <div class="growth-years__bottom">
+                    <div class="growth-years__bottom-icon"><svg xmlns="http://www.w3.org/2000/svg" width="68" height="32" viewBox="0 0 68 32" fill="none">
+<path d="M1.18752 32V29.0736C1.18434 27.6158 1.67565 26.2038 2.57473 25.0866C3.47381 23.9695 4.72286 23.2191 6.1014 22.9679C13.4401 21.6774 20.9345 21.6774 28.2732 22.9679C29.6518 23.2191 30.9008 23.9695 31.7999 25.0866C32.699 26.2038 33.1903 27.6158 33.1871 29.0736L33.1875 32" stroke="white" stroke-width="1.75507" stroke-miterlimit="10"/>
+<path d="M17.1875 16C21.6058 16 25.1875 12.4183 25.1875 8C25.1875 3.58172 21.6058 0 17.1875 0C12.7692 0 9.1875 3.58172 9.1875 8C9.1875 12.4183 12.7692 16 17.1875 16Z" fill="white" fill-opacity="0.26"/>
+<path d="M37.1875 23.4798C37.6791 23.2307 38.2033 23.0566 38.7437 22.9629C46.1808 21.679 53.7739 21.679 61.211 22.9629C62.6061 23.215 63.87 23.9651 64.7803 25.0814C65.6906 26.1977 66.1889 27.6085 66.1875 29.0654V32" stroke="white" stroke-width="1.75507" stroke-miterlimit="10"/>
+<path d="M50.1875 16C54.6058 16 58.1875 12.4183 58.1875 8C58.1875 3.58172 54.6058 0 50.1875 0C45.7692 0 42.1875 3.58172 42.1875 8C42.1875 12.4183 45.7692 16 50.1875 16Z" fill="white" fill-opacity="0.26"/>
+</svg>
+                    </div>
+                    <div class="growth-years__bottom-text"><span>2</span> сотрудника</div>
+                  </div>
+                </div>
+                <div class="section-representation__left-content-bottom growth-years">
+                  <div class="growth-years__top"> 
+                    <div class="growth-years__top-below">2021</div>
+                    <div class="growth-years__top-over">2021 <span>год</span></div>
+                  </div>
+                  <div class="growth-years__bottom">
+                    <div class="growth-years__bottom-icon"><svg xmlns="http://www.w3.org/2000/svg" width="77" height="25" viewBox="0 0 77 25" fill="none">
+<path d="M1.15626 24.6769V22.5105C1.15381 21.4313 1.53269 20.3859 2.22602 19.5589C2.91935 18.7318 3.88256 18.1763 4.94563 17.9904C10.6049 17.0349 16.3843 17.0349 22.0435 17.9904C23.1066 18.1763 24.0698 18.7318 24.7632 19.5589C25.4565 20.3859 25.8354 21.4313 25.8329 22.5105L25.8332 24.6769" stroke="white" stroke-width="1.75507" stroke-miterlimit="10"/>
+<path d="M13.4948 12.3385C16.902 12.3385 19.664 9.57642 19.664 6.16924C19.664 2.76206 16.902 0 13.4948 0C10.0876 0 7.32556 2.76206 7.32556 6.16924C7.32556 9.57642 10.0876 12.3385 13.4948 12.3385Z" fill="#FA195C"/>
+<path d="M53.1138 18.372C53.488 18.1877 53.887 18.0588 54.2983 17.9895C59.9591 17.0395 65.7387 17.0395 71.3995 17.9895C72.4614 18.176 73.4235 18.7312 74.1163 19.5572C74.8092 20.3833 75.1885 21.4273 75.1874 22.5054V24.677" stroke="white" stroke-width="1.75507" stroke-miterlimit="10"/>
+<path d="M62.8488 12.3385C66.256 12.3385 69.018 9.57642 69.018 6.16924C69.018 2.76206 66.256 0 62.8488 0C59.4416 0 56.6796 2.76206 56.6796 6.16924C56.6796 9.57642 59.4416 12.3385 62.8488 12.3385Z" fill="#00C3FF"/>
+<path d="M28.4365 18.372C28.8107 18.1877 29.2097 18.0588 29.621 17.9895C35.2818 17.0395 41.0614 17.0395 46.7222 17.9895C47.7841 18.176 48.7461 18.7312 49.439 19.5572C50.1319 20.3833 50.5112 21.4273 50.5101 22.5054V24.677" stroke="white" stroke-width="1.75507" stroke-miterlimit="10"/>
+<path d="M38.1715 12.3385C41.5787 12.3385 44.3407 9.57642 44.3407 6.16924C44.3407 2.76206 41.5787 0 38.1715 0C34.7643 0 32.0023 2.76206 32.0023 6.16924C32.0023 9.57642 34.7643 12.3385 38.1715 12.3385Z" fill="#00C3FF"/>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="77" height="25" viewBox="0 0 77 25" fill="none">
+<path d="M1.15626 24.6769V22.5105C1.15381 21.4313 1.53269 20.3859 2.22602 19.5589C2.91935 18.7318 3.88256 18.1763 4.94563 17.9904C10.6049 17.0349 16.3843 17.0349 22.0435 17.9904C23.1066 18.1763 24.0698 18.7318 24.7632 19.5589C25.4565 20.3859 25.8354 21.4313 25.8329 22.5105L25.8332 24.6769" stroke="white" stroke-width="1.75507" stroke-miterlimit="10"/>
+<path d="M13.4948 12.3385C16.902 12.3385 19.664 9.57642 19.664 6.16924C19.664 2.76206 16.902 0 13.4948 0C10.0876 0 7.32556 2.76206 7.32556 6.16924C7.32556 9.57642 10.0876 12.3385 13.4948 12.3385Z" fill="#FA195C"/>
+<path d="M53.1138 18.372C53.488 18.1877 53.887 18.0588 54.2983 17.9895C59.9591 17.0395 65.7387 17.0395 71.3995 17.9895C72.4614 18.176 73.4235 18.7312 74.1163 19.5572C74.8092 20.3833 75.1885 21.4273 75.1874 22.5054V24.677" stroke="white" stroke-width="1.75507" stroke-miterlimit="10"/>
+<path d="M62.8488 12.3385C66.256 12.3385 69.018 9.57642 69.018 6.16924C69.018 2.76206 66.256 0 62.8488 0C59.4416 0 56.6796 2.76206 56.6796 6.16924C56.6796 9.57642 59.4416 12.3385 62.8488 12.3385Z" fill="#00C3FF"/>
+<path d="M28.4365 18.372C28.8107 18.1877 29.2097 18.0588 29.621 17.9895C35.2818 17.0395 41.0614 17.0395 46.7222 17.9895C47.7841 18.176 48.7461 18.7312 49.439 19.5572C50.1319 20.3833 50.5112 21.4273 50.5101 22.5054V24.677" stroke="white" stroke-width="1.75507" stroke-miterlimit="10"/>
+<path d="M38.1715 12.3385C41.5787 12.3385 44.3407 9.57642 44.3407 6.16924C44.3407 2.76206 41.5787 0 38.1715 0C34.7643 0 32.0023 2.76206 32.0023 6.16924C32.0023 9.57642 34.7643 12.3385 38.1715 12.3385Z" fill="#00C3FF"/>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="77" height="26" viewBox="0 0 77 26" fill="none">
+<path d="M1.15626 25.206V23.0395C1.15381 21.9603 1.53269 20.9149 2.22602 20.0879C2.91935 19.2609 3.88256 18.7054 4.94563 18.5194C10.6049 17.564 16.3843 17.564 22.0435 18.5194C23.1066 18.7054 24.0698 19.2609 24.7632 20.0879C25.4565 20.9149 25.8354 21.9603 25.8329 23.0395L25.8332 25.206" stroke="white" stroke-width="1.75507" stroke-miterlimit="10"/>
+<path d="M13.4948 12.8675C16.902 12.8675 19.664 10.1055 19.664 6.69829C19.664 3.29112 16.902 0.529053 13.4948 0.529053C10.0876 0.529053 7.32556 3.29112 7.32556 6.69829C7.32556 10.1055 10.0876 12.8675 13.4948 12.8675Z" fill="#00C3FF"/>
+<path d="M53.1138 18.9011C53.488 18.7168 53.887 18.5879 54.2983 18.5186C59.9591 17.5685 65.7387 17.5685 71.3995 18.5186C72.4614 18.7051 73.4235 19.2602 74.1163 20.0863C74.8092 20.9123 75.1885 21.9563 75.1874 23.0345V25.206" stroke="white" stroke-width="1.75507" stroke-miterlimit="10"/>
+<path d="M62.8488 12.8675C66.256 12.8675 69.018 10.1055 69.018 6.69829C69.018 3.29112 66.256 0.529053 62.8488 0.529053C59.4416 0.529053 56.6796 3.29112 56.6796 6.69829C56.6796 10.1055 59.4416 12.8675 62.8488 12.8675Z" fill="#FA195C"/>
+<path d="M28.4365 18.9011C28.8107 18.7168 29.2097 18.5879 29.621 18.5186C35.2818 17.5685 41.0614 17.5685 46.7222 18.5186C47.7841 18.7051 48.7461 19.2602 49.439 20.0863C50.1319 20.9123 50.5112 21.9563 50.5101 23.0345V25.206" stroke="white" stroke-width="1.75507" stroke-miterlimit="10"/>
+<path d="M38.1715 12.8675C41.5787 12.8675 44.3407 10.1055 44.3407 6.69829C44.3407 3.29112 41.5787 0.529053 38.1715 0.529053C34.7643 0.529053 32.0023 3.29112 32.0023 6.69829C32.0023 10.1055 34.7643 12.8675 38.1715 12.8675Z" fill="#00C3FF"/>
+</svg>
+                    </div>
+                    <div class="growth-years__bottom-text"><span>2000</span> сотрудников</div>
+                  </div>
+                </div>
+                <div class="section-representation__shape section-representation__shape_blue"><img src="img/icons/ShapeBlue.png" alt="Голубой круглый треугольник"></div>
+                <div class="section-representation__shape section-representation__shape_pink"><img src="img/icons/ShapePink.png" alt="Розовый круглый треугольник"></div>
+              </div>
+            </div>
+            <div class="section-representation__right">
+              <div class="section-representation__right-foto"> 
+                <div class="section-representation__right-back"></div>
+                <div class="section-representation__right-circle"><svg width="684" height="801">
+<ellipse rx="684" ry="801" cx="684" cy="801" fill="#00C5FF"/>
+</svg>
+                  <div class="section-representation__right-circle-lava"><img src="img/icons/lavaGreen.png" alt="Лавовая капля"></div>
+                </div><img class="section-representation__right-foto-img" src="img/foto/EliseevV.png" alt="Владимир Елисеев">
+                <div class="section-representation__right-foto-quote quote">
+                  <div class="quote__contour"><img class="quote__contour-back" src="img/icons/quoteContour.png" alt="Контур цитаты"><img class="quote__contour-white" src="img/icons/quoteBackWhite.png" alt="Белый фон цитаты"></div>
+                  <div class="quote__content"> 
+                    <div class="quote__content-text_hidden">«Мы прошли большой путь и искренне выражаем благодарность всем, кто был все эти годы с нами».</div>
+                    <div class="quote__content-text"></div>
+                    <div class="quote__content-text-sign quote__content-text-sign_hidden">Владимир Елисеев</div>
+                    <div class="quote__content-text-position quote__content-text-position_hidden">генеральный директор<br/>«Инфосистемы Джет»</div>
+                    <div class="help__tag">ГОВОРИТ</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section-slider-feedback">
+          <div class="container">
+            <h2 class="section-slider-feedback__header">Люди и проекты, которые<br/> нас вдохновляют
+              <div class="help__tag">ПОКАЗЫВАЕТ</div>
+            </h2>
+            <div class="section-slider-feedback__slider-video1 slider-video1">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide slider-video1__slide">
+                  <div class="slider-video1__slide-back"> 
+                    <div class="slider-video1__slide-foto"> <img src="img/foto/KovardakovaO.png" alt="Ольга Ковардакова"></div>
+                    <div class="slider-video1__slide-button" data-info="https://www.youtube.com/embed/F6ZAIOO4-JI"></div>
+                    <div class="slider-video1__slide-share"><img src="img/icons/Shape.png" alt="Круглый треугольник"></div>
+                    <div class="slider-video1__slide-share slider-video1__slide-share-trans"><img src="img/icons/Shape.png" alt="Круглый треугольник"></div>
+                    <div class="slider-video1__slide-left">
+                      <div class="slider-video1__slide-left-sign">Ольга Ковардакова</div>
+                      <div class="slider-video1__slide-left-position">директор по работе с персоналом</div>
+                      <div class="slider-video1__slide-left-firm">Инфосистема Джет</div>
+                    </div>
+                    <div class="slider-video1__slide-right"> 
+                      <div class="slider-video1__slide-right-text">Имеется спорная точка зрения, гласящая примерно следующее: базовые сценарии поведения пользователей набирают популярность среди определенных слоев населения, а значит, должны быть объективно рассмотрены соответствующими инстанциями. Внезапно, многие известные личности освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы, разумеется.</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide slider-video1__slide">
+                  <div class="slider-video1__slide-back"> 
+                    <div class="slider-video1__slide-foto"> <img src="img/foto/BulgakovD.png" alt="Дмитрий Булгаков"></div>
+                    <div class="slider-video1__slide-button" data-info="https://www.youtube.com/embed/a2qJf0ifEMc"></div>
+                    <div class="slider-video1__slide-share"><img src="img/icons/Shape.png" alt="Круглый треугольник"></div>
+                    <div class="slider-video1__slide-share slider-video1__slide-share-trans"><img src="img/icons/Shape.png" alt="Круглый треугольник"></div>
+                    <div class="slider-video1__slide-left">
+                      <div class="slider-video1__slide-left-sign">Дмитрий Булгаков</div>
+                      <div class="slider-video1__slide-left-position">директор по работе с персоналом</div>
+                      <div class="slider-video1__slide-left-firm">Инфосистема Джет</div>
+                    </div>
+                    <div class="slider-video1__slide-right"> 
+                      <div class="slider-video1__slide-right-text">Имеется спорная точка зрения, гласящая примерно следующее: базовые сценарии поведения пользователей набирают популярность среди определенных слоев населения, а значит, должны быть объективно рассмотрены соответствующими инстанциями. Внезапно, многие известные личности освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы, разумеется.</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide slider-video1__slide">
+                  <div class="slider-video1__slide-back"> 
+                    <div class="slider-video1__slide-foto"> <img src="img/foto/KovardakovaO.png" alt="Ольга Ковардакова"></div>
+                    <div class="slider-video1__slide-button" data-info="https://www.youtube.com/embed/-9EHdp1ynUU"></div>
+                    <div class="slider-video1__slide-share"><img src="img/icons/Shape.png" alt="Круглый треугольник"></div>
+                    <div class="slider-video1__slide-share slider-video1__slide-share-trans"><img src="img/icons/Shape.png" alt="Круглый треугольник"></div>
+                    <div class="slider-video1__slide-left">
+                      <div class="slider-video1__slide-left-sign">Ольга Ковардакова</div>
+                      <div class="slider-video1__slide-left-position">директор по работе с персоналом</div>
+                      <div class="slider-video1__slide-left-firm">Инфосистема Джет</div>
+                    </div>
+                    <div class="slider-video1__slide-right"> 
+                      <div class="slider-video1__slide-right-text">Имеется спорная точка зрения, гласящая примерно следующее: базовые сценарии поведения пользователей набирают популярность среди определенных слоев населения, а значит, должны быть объективно рассмотрены соответствующими инстанциями. Внезапно, многие известные личности освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы, разумеется.</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide slider-video1__slide">
+                  <div class="slider-video1__slide-back"> 
+                    <div class="slider-video1__slide-foto"> <img src="img/foto/BulgakovD.png" alt="Дмитрий Булгаков"></div>
+                    <div class="slider-video1__slide-button" data-info="https://www.youtube.com/embed/F6ZAIOO4-JI"></div>
+                    <div class="slider-video1__slide-share"><img src="img/icons/Shape.png" alt="Круглый треугольник"></div>
+                    <div class="slider-video1__slide-share slider-video1__slide-share-trans"><img src="img/icons/Shape.png" alt="Круглый треугольник"></div>
+                    <div class="slider-video1__slide-left">
+                      <div class="slider-video1__slide-left-sign">Дмитрий Булгаков</div>
+                      <div class="slider-video1__slide-left-position">директор по работе с персоналом</div>
+                      <div class="slider-video1__slide-left-firm">Инфосистема Джет</div>
+                    </div>
+                    <div class="slider-video1__slide-right"> 
+                      <div class="slider-video1__slide-right-text">Имеется спорная точка зрения, гласящая примерно следующее: базовые сценарии поведения пользователей набирают популярность среди определенных слоев населения, а значит, должны быть объективно рассмотрены соответствующими инстанциями. Внезапно, многие известные личности освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы, разумеется.</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide slider-video1__slide">
+                  <div class="slider-video1__slide-back"> 
+                    <div class="slider-video1__slide-foto"> <img src="img/foto/KovardakovaO.png" alt="Ольга Ковардакова"></div>
+                    <div class="slider-video1__slide-button" data-info="https://www.youtube.com/embed/F6ZAIOO4-JI"></div>
+                    <div class="slider-video1__slide-share"><img src="img/icons/Shape.png" alt="Круглый треугольник"></div>
+                    <div class="slider-video1__slide-share slider-video1__slide-share-trans"><img src="img/icons/Shape.png" alt="Круглый треугольник"></div>
+                    <div class="slider-video1__slide-left">
+                      <div class="slider-video1__slide-left-sign">Ольга Ковардакова</div>
+                      <div class="slider-video1__slide-left-position">директор по работе с персоналом</div>
+                      <div class="slider-video1__slide-left-firm">Инфосистема Джет</div>
+                    </div>
+                    <div class="slider-video1__slide-right"> 
+                      <div class="slider-video1__slide-right-text">Имеется спорная точка зрения, гласящая примерно следующее: базовые сценарии поведения пользователей набирают популярность среди определенных слоев населения, а значит, должны быть объективно рассмотрены соответствующими инстанциями. Внезапно, многие известные личности освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы, разумеется.</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="slider-video1-pagination"></div>
+              <div class="slider-video1-button-prev"></div>
+              <div class="slider-video1-button-next"></div>
+            </div>
+          </div>
+        </div>
+        <div class="section-memorable-moments">
+          <div class="container">
+            <div class="section-memorable-moments__top"> 
+              <div class="section-memorable-moments__top-header">Памятные моменты</div>
+              <div class="section-memorable-moments__top-text">Проекты, пережитые вместе с нами- они сделали нас такими, какие мы есть:<br/> решительными, преданными своему делу, душевными.</div>
+            </div>
+            <div class="section-memorable-moments__bottom"> 
+              <div class="section-memorable-moments__bottom-share"><img src="img/icons/Shape.png" alt="Круглый треугольник"></div>
+              <div class="section-memorable-moments__bottom-share section-memorable-moments__bottom-share-trans"><img src="img/icons/Shape.png" alt="Круглый треугольник"></div>
+              <div class="section-memorable-moments__bottom_left-slider">
+                <div class="left-slider">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide left-slider__slide">
+                      <div class="left-slider__slide-back"> 
+                        <div class="left-slider__slide-risk">
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"></div>
+                          <div class="left-slider__slide-risk_big"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                        </div>
+                        <div class="left-slider__slide-data">1991</div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide left-slider__slide">
+                      <div class="left-slider__slide-back"> 
+                        <div class="left-slider__slide-risk">
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"></div>
+                          <div class="left-slider__slide-risk_big"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                        </div>
+                        <div class="left-slider__slide-data">1992</div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide left-slider__slide">
+                      <div class="left-slider__slide-back"> 
+                        <div class="left-slider__slide-risk">
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"></div>
+                          <div class="left-slider__slide-risk_big"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                        </div>
+                        <div class="left-slider__slide-data">1993</div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide left-slider__slide">
+                      <div class="left-slider__slide-back"> 
+                        <div class="left-slider__slide-risk">
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"></div>
+                          <div class="left-slider__slide-risk_big"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                        </div>
+                        <div class="left-slider__slide-data">1994</div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide left-slider__slide">
+                      <div class="left-slider__slide-back"> 
+                        <div class="left-slider__slide-risk">
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"></div>
+                          <div class="left-slider__slide-risk_big"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                        </div>
+                        <div class="left-slider__slide-data">1995</div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide left-slider__slide">
+                      <div class="left-slider__slide-back"> 
+                        <div class="left-slider__slide-risk">
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"></div>
+                          <div class="left-slider__slide-risk_big"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                        </div>
+                        <div class="left-slider__slide-data">1996</div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide left-slider__slide">
+                      <div class="left-slider__slide-back"> 
+                        <div class="left-slider__slide-risk">
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"></div>
+                          <div class="left-slider__slide-risk_big"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                        </div>
+                        <div class="left-slider__slide-data">1997</div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide left-slider__slide">
+                      <div class="left-slider__slide-back"> 
+                        <div class="left-slider__slide-risk">
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"></div>
+                          <div class="left-slider__slide-risk_big"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                        </div>
+                        <div class="left-slider__slide-data">1998</div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide left-slider__slide">
+                      <div class="left-slider__slide-back"> 
+                        <div class="left-slider__slide-risk">
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"></div>
+                          <div class="left-slider__slide-risk_big"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                        </div>
+                        <div class="left-slider__slide-data">1999</div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide left-slider__slide">
+                      <div class="left-slider__slide-back"> 
+                        <div class="left-slider__slide-risk">
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"></div>
+                          <div class="left-slider__slide-risk_big"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                        </div>
+                        <div class="left-slider__slide-data">2000</div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide left-slider__slide">
+                      <div class="left-slider__slide-back"> 
+                        <div class="left-slider__slide-risk">
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"></div>
+                          <div class="left-slider__slide-risk_big"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                        </div>
+                        <div class="left-slider__slide-data">2001</div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide left-slider__slide">
+                      <div class="left-slider__slide-back"> 
+                        <div class="left-slider__slide-risk">
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"></div>
+                          <div class="left-slider__slide-risk_big"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                        </div>
+                        <div class="left-slider__slide-data">2002</div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide left-slider__slide">
+                      <div class="left-slider__slide-back"> 
+                        <div class="left-slider__slide-risk">
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"></div>
+                          <div class="left-slider__slide-risk_big"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                        </div>
+                        <div class="left-slider__slide-data">2003</div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide left-slider__slide">
+                      <div class="left-slider__slide-back"> 
+                        <div class="left-slider__slide-risk">
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"></div>
+                          <div class="left-slider__slide-risk_big"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                        </div>
+                        <div class="left-slider__slide-data">2004</div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide left-slider__slide">
+                      <div class="left-slider__slide-back"> 
+                        <div class="left-slider__slide-risk">
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"></div>
+                          <div class="left-slider__slide-risk_big"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                          <div class="left-slider__slide-risk_mini"> </div>
+                        </div>
+                        <div class="left-slider__slide-data">2005</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="section-memorable-moments__bottom_right-slider">
+                <div class="right-slider">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide right-slider__slide">
+                      <div class="right-slider__slide-foto"> <img src="img/foto/fotoMemorableMoments/1996.jpg" alt="1991 год"></div>
+                      <div class="right-slider__slide-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae ullam temporibus ad! Quo dolor provident dignissimos aut magni similique numquam omnis repudiandae odio, velit repellendus neque iure laboriosam id fugiat.</div>
+                    </div>
+                    <div class="swiper-slide right-slider__slide">
+                      <div class="right-slider__slide-foto"> <img src="img/foto/fotoMemorableMoments/1997.jpg" alt="1992 год"></div>
+                      <div class="right-slider__slide-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae ullam temporibus ad! Quo dolor provident dignissimos aut magni similique numquam omnis repudiandae odio, velit repellendus neque iure laboriosam id fugiat.</div>
+                    </div>
+                    <div class="swiper-slide right-slider__slide">
+                      <div class="right-slider__slide-foto"> <img src="img/foto/fotoMemorableMoments/1996.jpg" alt="1993 год"></div>
+                      <div class="right-slider__slide-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae ullam temporibus ad! Quo dolor provident dignissimos aut magni similique numquam omnis repudiandae odio, velit repellendus neque iure laboriosam id fugiat.</div>
+                    </div>
+                    <div class="swiper-slide right-slider__slide">
+                      <div class="right-slider__slide-foto"> <img src="img/foto/fotoMemorableMoments/1997.jpg" alt="1994 год"></div>
+                      <div class="right-slider__slide-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae ullam temporibus ad! Quo dolor provident dignissimos aut magni similique numquam omnis repudiandae odio, velit repellendus neque iure laboriosam id fugiat.</div>
+                    </div>
+                    <div class="swiper-slide right-slider__slide">
+                      <div class="right-slider__slide-foto"> <img src="img/foto/fotoMemorableMoments/1996.jpg" alt="1995 год"></div>
+                      <div class="right-slider__slide-text">Запуск «Лето Банка» (ныне «Почта Банка») — наш первый аутсорсинговый проект такого формата и масштаба, который не потерял уникальности и длится по сей день. В 2013 году на открытие одного клиентского центра мы тратили один день. Были периоды, когда открывали по 8-10 центров в неделю, а всего открыли несколько сотен. Такой скорости работы в России, да и в Европе, точно не было.</div>
+                    </div>
+                    <div class="swiper-slide right-slider__slide">
+                      <div class="right-slider__slide-foto"> <img src="img/foto/fotoMemorableMoments/1997.jpg" alt="1996 год"></div>
+                      <div class="right-slider__slide-text">Запуск «Лето Банка» (ныне «Почта Банка») — наш первый аутсорсинговый проект такого формата и масштаба, который не потерял уникальности и длится по сей день. В 2013 году на открытие одного клиентского центра мы тратили один день. Были периоды, когда открывали по 8-10 центров в неделю, а всего открыли несколько сотен. Такой скорости работы в России, да и в Европе, точно не было.</div>
+                    </div>
+                    <div class="swiper-slide right-slider__slide">
+                      <div class="right-slider__slide-foto"> <img src="img/foto/fotoMemorableMoments/1996.jpg" alt="1997 год"></div>
+                      <div class="right-slider__slide-text">Запуск «Лето Банка» (ныне «Почта Банка») — наш первый аутсорсинговый проект такого формата и масштаба, который не потерял уникальности и длится по сей день. В 2013 году на открытие одного клиентского центра мы тратили один день. Были периоды, когда открывали по 8-10 центров в неделю, а всего открыли несколько сотен. Такой скорости работы в России, да и в Европе, точно не было.</div>
+                    </div>
+                    <div class="swiper-slide right-slider__slide">
+                      <div class="right-slider__slide-foto"> <img src="img/foto/fotoMemorableMoments/1997.jpg" alt="1998 год"></div>
+                      <div class="right-slider__slide-text">Запуск «Лето Банка» (ныне «Почта Банка») — наш первый аутсорсинговый проект такого формата и масштаба, который не потерял уникальности и длится по сей день. В 2013 году на открытие одного клиентского центра мы тратили один день. Были периоды, когда открывали по 8-10 центров в неделю, а всего открыли несколько сотен. Такой скорости работы в России, да и в Европе, точно не было.</div>
+                    </div>
+                    <div class="swiper-slide right-slider__slide">
+                      <div class="right-slider__slide-foto"> <img src="img/foto/fotoMemorableMoments/1996.jpg" alt="1999 год"></div>
+                      <div class="right-slider__slide-text">Запуск «Лето Банка» (ныне «Почта Банка») — наш первый аутсорсинговый проект такого формата и масштаба, который не потерял уникальности и длится по сей день. В 2013 году на открытие одного клиентского центра мы тратили один день. Были периоды, когда открывали по 8-10 центров в неделю, а всего открыли несколько сотен. Такой скорости работы в России, да и в Европе, точно не было.</div>
+                    </div>
+                    <div class="swiper-slide right-slider__slide">
+                      <div class="right-slider__slide-foto"> <img src="img/foto/fotoMemorableMoments/1997.jpg" alt="2000 год"></div>
+                      <div class="right-slider__slide-text">Запуск «Лето Банка» (ныне «Почта Банка») — наш первый аутсорсинговый проект такого формата и масштаба, который не потерял уникальности и длится по сей день. В 2013 году на открытие одного клиентского центра мы тратили один день. Были периоды, когда открывали по 8-10 центров в неделю, а всего открыли несколько сотен. Такой скорости работы в России, да и в Европе, точно не было.</div>
+                    </div>
+                    <div class="swiper-slide right-slider__slide">
+                      <div class="right-slider__slide-foto"> <img src="img/foto/fotoMemorableMoments/1996.jpg" alt="2001 год"></div>
+                      <div class="right-slider__slide-text">Запуск «Лето Банка» (ныне «Почта Банка») — наш первый аутсорсинговый проект такого формата и масштаба, который не потерял уникальности и длится по сей день. В 2013 году на открытие одного клиентского центра мы тратили один день. Были периоды, когда открывали по 8-10 центров в неделю, а всего открыли несколько сотен. Такой скорости работы в России, да и в Европе, точно не было.</div>
+                    </div>
+                    <div class="swiper-slide right-slider__slide">
+                      <div class="right-slider__slide-foto"> <img src="img/foto/fotoMemorableMoments/1997.jpg" alt="2002 год"></div>
+                      <div class="right-slider__slide-text">Запуск «Лето Банка» (ныне «Почта Банка») — наш первый аутсорсинговый проект такого формата и масштаба, который не потерял уникальности и длится по сей день. В 2013 году на открытие одного клиентского центра мы тратили один день. Были периоды, когда открывали по 8-10 центров в неделю, а всего открыли несколько сотен. Такой скорости работы в России, да и в Европе, точно не было.</div>
+                    </div>
+                    <div class="swiper-slide right-slider__slide">
+                      <div class="right-slider__slide-foto"> <img src="img/foto/fotoMemorableMoments/1996.jpg" alt="2003 год"></div>
+                      <div class="right-slider__slide-text">Запуск «Лето Банка» (ныне «Почта Банка») — наш первый аутсорсинговый проект такого формата и масштаба, который не потерял уникальности и длится по сей день. В 2013 году на открытие одного клиентского центра мы тратили один день. Были периоды, когда открывали по 8-10 центров в неделю, а всего открыли несколько сотен. Такой скорости работы в России, да и в Европе, точно не было.</div>
+                    </div>
+                    <div class="swiper-slide right-slider__slide">
+                      <div class="right-slider__slide-foto"> <img src="img/foto/fotoMemorableMoments/1997.jpg" alt="2004 год"></div>
+                      <div class="right-slider__slide-text">Запуск «Лето Банка» (ныне «Почта Банка») — наш первый аутсорсинговый проект такого формата и масштаба, который не потерял уникальности и длится по сей день. В 2013 году на открытие одного клиентского центра мы тратили один день. Были периоды, когда открывали по 8-10 центров в неделю, а всего открыли несколько сотен. Такой скорости работы в России, да и в Европе, точно не было.</div>
+                    </div>
+                    <div class="swiper-slide right-slider__slide">
+                      <div class="right-slider__slide-foto"> <img src="img/foto/fotoMemorableMoments/1996.jpg" alt="2005 год"></div>
+                      <div class="right-slider__slide-text">Запуск «Лето Банка» (ныне «Почта Банка») — наш первый аутсорсинговый проект такого формата и масштаба, который не потерял уникальности и длится по сей день. В 2013 году на открытие одного клиентского центра мы тратили один день. Были периоды, когда открывали по 8-10 центров в неделю, а всего открыли несколько сотен. Такой скорости работы в России, да и в Европе, точно не было.</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="section-memorable-moments__bottom-line_top"></div>
+              <div class="section-memorable-moments__bottom-line_bottom"></div>
+              <div class="help__tag">СВЯЗАНО</div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__logo-beckgraund"></div>
+          <div class="footer__logo-svg"><svg xmlns="http://www.w3.org/2000/svg" width="260" height="169" viewBox="0 0 260 169" fill="none">
+<path d="M135.566 38.2092C131.117 42.8121 127.494 48.0079 124.762 53.7655C123.076 57.323 121.718 61.0521 120.656 64.9061C120.266 64.4536 119.844 64.0167 119.423 63.5798C120.453 59.9599 121.765 56.4492 123.357 53.0945C125.949 47.6335 129.306 42.6561 133.412 38.2092H135.566Z" fill="url(#paint0_linear_24_355)"/>
+<path d="M197.393 20.5932C196.987 21.0301 196.596 21.467 196.222 21.9194C196.159 21.9038 196.112 21.8882 196.05 21.8726C190.898 20.6088 185.496 19.9847 179.859 19.9847C179.672 19.9847 168.962 19.9847 152.88 19.9691H151.054C149.898 19.9691 148.712 19.9691 147.51 19.9535H145.917C131.303 19.9379 113.458 19.9223 95.4096 19.9067C94.2075 19.9223 93.0053 19.9067 91.7875 19.9067C48.0092 19.891 4.32452 19.8598 4.32452 19.8598V18.2839C4.32452 18.2839 48.7117 18.3151 92.8492 18.3463H96.4713C115.41 18.362 134.083 18.3776 148.946 18.3932H150.71C152.1 18.4088 153.458 18.4088 154.77 18.4088H156.971C170.741 18.4244 179.703 18.44 179.844 18.44C185.901 18.44 191.741 19.1265 197.221 20.5776C197.283 20.562 197.346 20.5776 197.393 20.5932Z" fill="url(#paint1_linear_24_355)"/>
+<path d="M243.388 84.7842C243.388 102.072 238.127 117.332 227.775 130.142C222.608 136.555 215.754 141.72 207.385 145.496C199.095 149.24 189.836 151.144 179.86 151.144C166.323 151.144 154.52 147.821 144.793 141.267C141.421 138.989 138.314 136.493 135.551 133.809C135.738 133.232 135.91 132.686 136.081 132.124C138.954 134.979 142.139 137.585 145.668 139.972C155.145 146.338 166.636 149.568 179.86 149.568C189.618 149.568 198.658 147.727 206.745 144.06C214.879 140.362 221.546 135.354 226.558 129.128C236.69 116.614 241.827 101.682 241.827 84.7686C241.827 83.8168 241.811 82.8962 241.78 81.9756V81.96C242.295 81.8664 242.811 81.7728 243.326 81.6636V81.726C243.373 82.7402 243.388 83.7388 243.388 84.7842Z" fill="url(#paint2_linear_24_355)"/>
+<path d="M141.593 38.2092C135.925 43.2334 131.46 49.1314 128.306 55.8719C126.386 59.8975 124.903 64.1571 123.872 68.6352C124.309 69.1657 124.715 69.6962 125.121 70.2423C126.12 65.421 127.666 60.8337 129.727 56.5584C133.037 49.4902 137.846 43.327 144.028 38.2248H141.593V38.2092Z" fill="url(#paint3_linear_24_355)"/>
+<path d="M237.799 82.3816C237.283 82.3972 236.768 82.4284 236.237 82.4284C236.269 83.2086 236.284 84.0043 236.284 84.7845C236.284 100.185 231.6 113.775 222.373 125.181C217.814 130.845 211.741 135.416 204.34 138.755C196.971 142.079 188.743 143.78 179.859 143.78C167.947 143.78 157.486 140.831 148.728 135.042C144.543 132.187 140.89 128.972 137.752 125.415C137.674 125.82 137.596 126.226 137.502 126.647C137.455 126.866 137.408 127.1 137.346 127.318C140.39 130.626 143.903 133.622 147.853 136.337C156.877 142.313 167.65 145.34 179.859 145.34C188.977 145.34 197.424 143.608 204.98 140.175C212.615 136.727 218.86 132.015 223.591 126.164C233.037 114.477 237.845 100.544 237.845 84.7845C237.845 83.9731 237.845 83.1773 237.799 82.3816Z" fill="url(#paint4_linear_24_355)"/>
+<path d="M193.224 25.5861C192.896 26.0385 192.553 26.5066 192.225 26.9591C192.115 26.9435 192.037 26.9123 191.928 26.9123C189.289 26.3974 186.557 26.0697 183.778 25.8981C182.498 25.8201 181.202 25.7889 179.875 25.7889C179.188 25.7889 177.205 25.7109 177.205 25.7109H141.155L138.485 25.6953H121.421L91.444 25.6797H87.8218L4.32452 25.6641V24.1038L88.8835 24.1194H92.5213L139.344 24.135H144.855L177.221 24.1506C177.236 24.1506 179.204 24.2286 179.859 24.2286C184.387 24.2286 188.759 24.6655 192.958 25.5392C193.068 25.5548 193.146 25.5704 193.224 25.5861Z" fill="url(#paint5_linear_24_355)"/>
+<path d="M112.022 38.2092H113.864C112.412 40.5497 111.101 42.9526 109.93 45.449C108.727 47.9611 107.65 50.5669 106.729 53.2194C106.292 52.9385 105.839 52.6577 105.371 52.3924C106.307 49.8023 107.353 47.259 108.54 44.7937C109.586 42.5313 110.757 40.3312 112.022 38.2092Z" fill="url(#paint6_linear_24_355)"/>
+<path d="M213.536 7.73613C212.974 8.04819 212.412 8.36025 211.85 8.71912C211.834 8.71912 211.834 8.70352 211.819 8.70352C201.858 4.5531 191.101 2.43109 179.812 2.43109L4.32452 2.38428V0.823975L179.812 0.870784C191.725 0.870784 203.044 3.18004 213.505 7.72052L213.536 7.73613Z" fill="url(#paint7_linear_24_355)"/>
+<path d="M260 84.7845C260 106.613 253.364 125.883 240.281 142.032C233.786 150.114 225.137 156.637 214.582 161.395C204.122 166.139 192.428 168.526 179.828 168.526C162.935 168.526 148.04 164.344 135.581 156.09C132.756 154.171 130.117 152.143 127.65 150.005C127.931 149.568 128.243 149.116 128.509 148.663C130.991 150.817 133.63 152.861 136.456 154.78C148.649 162.862 163.247 166.966 179.828 166.966C192.193 166.966 203.685 164.625 213.942 159.976C224.262 155.31 232.724 148.944 239.079 141.065C251.944 125.181 258.454 106.239 258.454 84.7845C258.454 80.9929 258.251 77.2482 257.83 73.6283C257.83 73.6127 257.83 73.6127 257.83 73.5971C257.939 73.4878 258.033 73.3786 258.126 73.2694L258.142 73.2538C258.361 73.0197 258.579 72.7545 258.767 72.5048C258.938 72.3176 259.063 72.146 259.204 71.9587C259.75 76.1248 260 80.4156 260 84.7845Z" fill="url(#paint8_linear_24_355)"/>
+<path d="M118.814 38.2092H120.718C118.501 41.3766 116.55 44.7001 114.879 48.2264C113.599 50.9257 112.475 53.7031 111.507 56.574C111.07 56.2152 110.648 55.9031 110.195 55.6066C111.132 52.8605 112.225 50.1768 113.474 47.5711C115.02 44.2944 116.8 41.1738 118.814 38.2092Z" fill="url(#paint9_linear_24_355)"/>
+<path d="M207.51 11.5748C207.01 11.9336 206.542 12.2925 206.042 12.6826C206.026 12.6826 206.026 12.6826 206.011 12.667C197.814 9.718 189.196 8.1889 180.328 8.1577V8.2045H4.32452V6.6442L179.922 6.58179C189.477 6.58179 198.72 8.26692 207.51 11.5748Z" fill="url(#paint10_linear_24_355)"/>
+<path d="M254.457 84.7843C254.457 105.084 248.29 123.027 236.112 138.069C230.039 145.589 221.983 151.659 212.178 156.09C202.436 160.506 191.553 162.737 179.828 162.737C163.919 162.737 150.055 158.836 138.642 151.16C135.785 149.241 133.13 147.197 130.632 145.028C130.898 144.56 131.163 144.076 131.397 143.608C133.911 145.823 136.628 147.914 139.516 149.865C150.664 157.385 164.231 161.192 179.828 161.192C191.335 161.192 201.998 159.008 211.522 154.702C221.109 150.348 228.977 144.435 234.895 137.101C246.838 122.341 252.896 104.741 252.896 84.7999C252.896 82.5219 252.818 80.2906 252.662 78.0594C252.662 78.0126 252.646 77.9502 252.646 77.9034C253.162 77.5913 253.661 77.248 254.145 76.8892C254.145 76.936 254.145 76.9828 254.161 77.0296C254.364 79.5417 254.457 82.1318 254.457 84.7843Z" fill="url(#paint11_linear_24_355)"/>
+<path d="M177.221 12.5107H15.8317V14.071H177.221V12.5107Z" fill="url(#paint12_linear_24_355)"/>
+<path d="M108.619 111.918C108.619 132.576 92.6154 149.833 72.1938 151.222C70.3515 151.347 67.2914 151.472 65.2774 151.472C51.741 151.472 39.9221 148.164 30.2422 141.611C28.1813 140.238 26.2141 138.74 24.3562 137.164L23.1384 136.134C22.7324 135.759 22.2953 135.323 21.8581 134.917C21.8269 134.886 21.8269 134.886 21.7957 134.854C21.5927 134.636 21.3585 134.418 21.1399 134.23C20.6715 133.793 20.2656 133.372 19.8909 132.982C19.7036 132.795 19.5162 132.608 19.3601 132.42C18.6731 131.765 17.5178 130.423 17.5178 130.423C14.7699 127.303 12.3499 124.088 10.3203 120.781L11.2882 119.361C13.7395 123.417 16.7371 127.334 20.2968 131.125C20.7028 131.531 21.0775 131.968 21.4834 132.405C21.8893 132.81 22.2953 133.216 22.7324 133.622C23.0135 133.871 23.2945 134.152 23.5443 134.402C25.8862 136.524 28.3843 138.521 31.0697 140.331C40.5467 146.713 52.0377 149.927 65.2617 149.927C67.229 149.927 70.211 149.802 72.0533 149.677H72.0689C91.7098 148.336 107.026 131.781 107.026 111.949C107.026 92.0553 90.3671 75.3132 70.4764 74.2678L71.6005 73.0508C92.3968 74.0806 108.619 91.1659 108.619 111.918Z" fill="url(#paint13_linear_24_355)"/>
+<path d="M26.6509 131.344C26.3074 131.063 25.9952 130.782 25.6829 130.47V130.439C25.9952 130.751 26.3387 131.032 26.6509 131.344Z" fill="url(#paint14_linear_24_355)"/>
+<path d="M31.8659 135.588V135.619L31.4288 135.276C31.5849 135.401 31.7098 135.494 31.8659 135.588Z" fill="url(#paint15_linear_24_355)"/>
+<path d="M102.654 111.918C102.654 130.454 87.8377 145.527 69.6019 145.527V145.496C69.6019 145.496 66.3857 145.652 65.324 145.652C52.9899 145.667 42.2795 142.625 33.3177 136.618C32.8181 136.274 31.21 135.12 31.21 135.12C31.21 135.12 27.2443 131.874 26.6511 131.344C26.3232 131.016 25.9953 130.751 25.6831 130.439C20.8119 125.789 16.9243 120.734 14.0515 115.304L15.0507 113.837C18.3606 120.375 23.2006 126.366 29.4926 131.749C30.3357 132.498 33.7237 135.026 34.1764 135.338C42.904 141.158 53.3646 144.247 65.2771 144.091C66.4793 144.076 70.0703 143.967 70.0703 143.967C87.1975 143.717 101.077 129.44 101.077 111.918C101.077 94.5829 85.4333 80.4309 68.0562 80.4309C67.7752 80.4309 67.4942 80.4621 67.2131 80.4621L66.6823 80.4933L66.6198 78.9174L67.1195 78.9018C67.4473 78.9018 67.744 78.8706 68.0562 78.8706C86.2764 78.855 102.654 93.7091 102.654 111.918Z" fill="url(#paint16_linear_24_355)"/>
+<path d="M126.589 111.918C126.589 115.912 126.152 119.969 125.277 124.01C124.653 126.975 123.7 130.018 122.529 132.982C114.598 152.907 95.6753 166.934 74.317 168.713V168.682C72.0687 168.869 67.6972 168.932 65.2772 168.932C48.3685 168.932 33.4895 164.75 21.0148 156.465C12.5527 150.629 5.49571 143.748 0 135.915L0.0468384 135.853L0.936769 134.527C6.37003 142.406 13.3958 149.334 21.9048 155.185C34.0828 163.268 48.6964 167.356 65.2928 167.356C67.6659 167.356 73.4271 167.168 75.5816 166.997L75.5504 167.012C95.7534 164.828 113.536 151.362 121.109 132.374C122.233 129.503 123.138 126.554 123.763 123.651C124.621 119.751 125.043 115.788 125.043 111.902C125.043 110.436 125.043 108.875 124.856 107.221C124.575 104.819 123.716 100.075 123.201 97.7192C122.03 92.3205 119.485 87.1403 116.394 82.2566C114.707 79.6196 112.803 77.092 110.695 74.7827C102.795 66.0294 92.5684 60.1314 81.1866 57.7286L81.5145 56.1995C93.2397 58.6647 103.732 64.7655 111.866 73.7529C114.02 76.1246 115.988 78.6991 117.721 81.414C120.281 85.4552 122.311 89.7148 123.778 94.1149C124.387 95.956 124.824 97.844 125.168 99.7632C125.48 101.573 126.183 105.177 126.417 106.987C126.604 108.813 126.589 110.373 126.589 111.918Z" fill="url(#paint17_linear_24_355)"/>
+<path d="M120.593 111.918C120.593 116.178 120.031 120.546 118.876 124.915C113.287 146.167 94.8322 161.411 72.9274 162.815H72.8962C70.523 163.034 67.9938 163.127 65.3084 163.127C49.3989 163.127 35.5035 159.226 24.1062 151.503C19.9532 148.694 16.1749 145.605 12.8025 142.235C12.6464 142.094 12.4902 141.954 12.3341 141.798C11.6159 141.08 10.929 140.316 10.2108 139.551C9.36767 138.615 8.52458 137.601 7.68149 136.54C6.15143 134.667 4.74628 132.795 3.41919 130.876L4.38718 129.471C4.63699 129.846 4.90241 130.22 5.16782 130.595C5.40202 130.938 5.65182 131.25 5.90163 131.593C6.86962 132.92 7.85323 134.23 8.9149 135.541C9.49257 136.243 10.0546 136.898 10.6323 137.569C11.6315 138.724 12.6151 139.879 13.708 140.986C13.7705 141.049 13.8329 141.111 13.8954 141.174C17.2053 144.419 20.9211 147.477 24.9961 150.239C36.1593 157.76 49.7112 161.582 65.324 161.582C67.4785 161.582 70.5387 161.426 72.8181 161.27C73.349 161.239 73.8174 161.177 74.2389 161.146C94.8322 159.242 112.084 144.684 117.408 124.541C118.501 120.312 119.063 116.068 119.063 111.949C119.063 111.294 119.032 110.639 119.001 109.952L118.985 109.265C118.767 105.365 118.095 101.48 117.002 97.8596C115.504 92.8354 113.255 88.1077 110.258 83.8637C102.717 73.0195 90.9602 65.5145 78.064 63.2988L78.3138 61.7385C91.6628 64.0478 103.794 71.7557 111.553 82.9587C114.645 87.3587 116.956 92.2269 118.517 97.3915C119.641 101.167 120.328 105.131 120.546 109.187L120.578 109.843C120.578 110.56 120.593 111.231 120.593 111.918Z" fill="url(#paint18_linear_24_355)"/>
+<path d="M17.5635 138.832C17.5014 138.77 17.4238 138.724 17.3616 138.662C17.4238 138.708 17.4859 138.77 17.5635 138.832Z" fill="white"/>
+<path d="M82.1234 38.209L53.2241 80.3996L51.9127 79.6195L80.2811 38.209H82.1234Z" fill="url(#paint19_linear_24_355)"/>
+<path d="M68.634 38.2095L39.7815 80.3065L38.47 79.5264L66.7604 38.2095H68.634Z" fill="url(#paint20_linear_24_355)"/>
+<path d="M75.3785 38.209L46.5104 80.3528L45.1833 79.5727L73.5206 38.209H75.3785Z" fill="url(#paint21_linear_24_355)"/>
+<path d="M88.8838 38.209L59.9533 80.4465L58.6262 79.6507L87.0415 38.209H88.8838Z" fill="url(#paint22_linear_24_355)"/>
+<path d="M95.6283 38.209L76.1435 66.6533L74.1763 69.5399L66.6821 80.4933L65.355 79.6975L93.786 38.209H95.6283Z" fill="url(#paint23_linear_24_355)"/>
+<path d="M115.363 111.918C115.363 135.291 97.2525 155.232 74.0207 157.604L73.3337 157.697C70.6639 157.931 67.9629 158.072 65.2931 158.072C50.4141 158.072 37.4399 154.39 26.7607 147.15C23.279 144.809 20.0004 142.188 17.0495 139.379L16.6592 139.005C14.9106 137.257 13.2088 135.401 11.6163 133.497C11.3509 133.185 11.1011 132.889 10.8825 132.608C10.7107 132.42 10.539 132.186 10.3673 131.968C8.93087 130.174 7.58817 128.348 6.38599 126.585L8.24391 123.854L8.41565 124.104C9.50855 125.774 10.6951 127.412 11.9285 129.003L12.0847 129.206C12.3189 129.503 12.553 129.784 12.8029 130.096C12.8965 130.236 12.959 130.298 13.0058 130.376L13.9426 131.5C14.0519 131.64 14.1456 131.765 14.2705 131.89C14.8481 132.608 15.4258 133.263 16.0191 133.918L16.8778 134.855C17.1744 135.167 17.4711 135.479 17.7989 135.791C18.08 136.087 18.3142 136.321 18.5484 136.54C21.5148 139.457 24.8559 142.188 28.4937 144.622C38.6577 151.503 51.0386 154.998 65.3243 154.998C67.6663 154.998 70.7732 154.826 73.6304 154.561C95.3322 152.408 112.35 133.684 112.35 111.918C112.35 111.809 112.35 111.731 112.335 111.653L112.303 111.169C112.225 106.894 111.523 102.681 110.18 98.6086C105.075 83.2084 90.6327 71.5373 74.1768 69.5401L76.144 66.6536C93.2088 69.1188 107.619 81.1956 113.037 97.6724C114.458 102.01 115.223 106.519 115.317 111.091L115.332 111.388C115.348 111.544 115.363 111.731 115.363 111.918Z" fill="white"/>
+<path d="M249.789 84.8158C249.789 103.789 244.028 120.562 232.631 134.668C226.932 141.751 219.36 147.446 210.148 151.612C201.031 155.732 190.82 157.838 179.844 157.838C164.902 157.838 151.913 154.171 141.218 146.947C138.236 144.903 135.488 142.797 133.099 140.612C133.568 139.645 134.005 138.662 134.411 137.663C136.94 140.051 139.813 142.313 142.935 144.435C153.115 151.285 165.543 154.764 179.844 154.764C190.429 154.764 200.203 152.767 208.899 148.835C217.689 144.841 224.871 139.442 230.242 132.764C241.187 119.236 246.745 103.103 246.745 84.8158C246.745 83.4584 246.698 82.1165 246.651 80.8682C247.541 80.5874 248.415 80.2597 249.227 79.9009C249.368 79.8384 249.508 79.776 249.649 79.7136L249.664 79.8541C249.758 81.3988 249.789 83.0683 249.789 84.8158Z" fill="white"/>
+<path d="M202.842 15.2103C202.795 15.2415 202.749 15.2727 202.702 15.3195C201.843 16.0528 201 16.8018 200.173 17.6132C193.802 15.772 186.948 14.8202 179.829 14.8202C171.601 14.8202 163.92 16.0216 156.972 18.4089C156.316 18.6273 155.66 18.877 155.036 19.111C154.318 19.3607 153.599 19.6572 152.881 19.9692C152.366 20.1721 151.866 20.4061 151.367 20.6401C149.119 21.6699 146.917 22.8246 144.872 24.1352C144.528 24.3381 144.201 24.5409 143.873 24.7593C143.576 24.9466 143.279 25.1494 142.967 25.3367C142.795 25.4615 142.624 25.5707 142.452 25.6955C142.171 25.8984 141.874 26.0856 141.609 26.2884C132.21 32.9978 125.075 41.3922 120.407 51.2689C118.939 54.3583 117.768 57.4009 116.816 60.5684L116.8 60.6152C115.988 59.8662 115.145 59.1485 114.286 58.4463C115.161 55.6222 116.285 52.7824 117.628 49.9739C122.108 40.4872 128.713 32.3268 137.237 25.7111C137.487 25.5239 137.752 25.3055 138.018 25.1182C138.455 24.7906 138.892 24.4785 139.345 24.1508C139.626 23.948 139.923 23.7295 140.204 23.5423C140.532 23.3239 140.859 23.0742 141.203 22.8558C142.795 21.7948 144.341 20.8274 145.902 19.9692C146.308 19.7508 146.73 19.5167 147.136 19.3139C147.729 19.0018 148.338 18.7054 148.931 18.4089C149.415 18.1749 149.899 17.9408 150.399 17.738C153.709 16.2401 157.19 15.023 160.813 14.0869C163.404 13.4315 166.09 12.901 168.838 12.5266C172.382 12.0273 176.035 11.7932 179.813 11.7932C187.792 11.7932 195.395 12.901 202.436 15.1011L202.842 15.2103Z" fill="white"/>
+<path d="M100.984 11.7622L61.4677 69.5403H57.783L95.2694 14.8204H4.34039V11.7622H100.984Z" fill="white"/>
+<path d="M252.678 56.4958C252.115 60.1937 250.429 63.7668 247.307 66.3569C244.481 68.6818 241.077 69.6336 237.689 69.8676C236.94 69.93 236.19 69.9456 235.41 69.9456H235.285C234.395 69.9456 233.505 69.8988 232.599 69.8364C232.553 69.8364 232.521 69.8208 232.475 69.8208C222.076 69.0094 210.07 64.0477 202.888 57.3695C200.406 55.0759 198.439 52.1425 197.814 48.585C197.096 44.6219 198.126 40.8147 200.109 37.6317C200.5 37.0076 200.905 36.3834 201.327 35.7749C201.343 35.7749 201.343 35.7593 201.343 35.7437C207.65 26.4131 216.628 18.8612 227.838 14.9761C231.085 13.8526 234.723 13.7434 238.22 15.0073C241.702 16.2555 244.418 18.6584 246.183 21.5761C246.667 22.3719 247.119 23.1677 247.525 23.979C247.775 24.4159 248.009 24.884 248.212 25.3365C253.005 35.1508 254.239 46.0261 252.678 56.4958Z" fill="#38BEEF"/>
+<path d="M248.79 59.8036C247.65 63.1582 245.48 66.232 242.139 68.1356C240 69.3527 237.689 69.8832 235.394 69.9456H235.269C234.364 69.9768 233.474 69.93 232.584 69.8364C232.537 69.8364 232.506 69.8208 232.459 69.8208C221.78 68.6973 208.774 61.1611 202.233 52.517C200.297 49.9737 198.954 46.9155 198.954 43.4984C198.954 40.6274 199.859 38.0217 201.296 35.7593C201.311 35.7593 201.311 35.7437 201.311 35.7281C201.811 34.9947 202.342 34.2926 202.935 33.6373C210.539 25.1804 220.687 18.9392 232.521 17.0356C235.738 16.5051 239.157 17.0044 242.201 18.7363C244.481 20.047 246.261 21.8726 247.478 23.979C247.884 24.6811 248.228 25.4145 248.509 26.1634C252.802 37.2572 252.412 49.0375 248.79 59.8036Z" fill="#14182D"/>
+<path d="M241.577 46.7284L245.278 44.2631L244.669 43.3582L227.979 54.4207L228.572 55.3413L240.516 47.4306L232.678 55.6222L233.49 56.3711L236.035 53.703L233.115 60.0222L234.114 60.4903L237.346 53.5313L236.566 53.1725L242.186 47.3057L241.577 46.7284Z" fill="#38BEEF"/>
+<path d="M236.55 42.4065H239.188L239.828 40.066H237.19L238.486 35.2915H235.8L233.224 44.8094H227.213C224.746 44.8094 224.091 43.3115 224.481 41.2519C224.871 39.1923 226.713 37.6788 228.54 37.6476C229.992 37.6476 230.757 38.3497 230.757 39.3639C230.757 39.6448 230.71 39.91 230.648 40.066H227.307L226.667 42.4065H232.724C233.037 41.5795 233.286 40.5185 233.286 39.7228C233.286 37.2419 231.616 35.2915 228.665 35.2915C224.637 35.2915 221.858 38.8334 221.858 42.2037C221.858 45.2619 223.888 47.1966 227.104 47.1966C227.119 47.1966 227.151 47.1966 227.166 47.1966V47.2122H232.521C232.053 48.913 233.13 50.3172 234.832 50.3641H237.018L237.658 47.9924H235.738C235.332 47.9612 235.082 47.6335 235.207 47.2122L236.55 42.4065Z" fill="white"/>
+<path d="M220.749 32.0928H220.593H217.877L217.221 34.4956H219.922L217.455 43.5766C217.158 44.4348 216.44 44.9341 215.41 44.8873H214.395L213.755 47.2902H214.723C216.034 47.337 217.502 47.1965 218.657 46.1043L218.689 46.0731C219.36 45.4178 219.906 44.5908 220.172 43.5922L223.263 32.124H220.749V32.0928Z" fill="white"/>
+<defs>
+<linearGradient id="paint0_linear_24_355" x1="145.329" y1="22.0097" x2="120.29" y2="61.3119" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00C3FF"/>
+<stop offset="1" stop-color="#0033CC"/>
+</linearGradient>
+<linearGradient id="paint1_linear_24_355" x1="219.642" y1="20.7243" x2="1.2148" y2="18.0198" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00C3FF"/>
+<stop offset="1" stop-color="#0033CC"/>
+</linearGradient>
+<linearGradient id="paint2_linear_24_355" x1="224.991" y1="116.464" x2="172.729" y2="116.238" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00C3FF"/>
+<stop offset="1" stop-color="#0033CC"/>
+</linearGradient>
+<linearGradient id="paint3_linear_24_355" x1="150.516" y1="25.3146" x2="125.477" y2="64.6166" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00C3FF"/>
+<stop offset="1" stop-color="#0033CC"/>
+</linearGradient>
+<linearGradient id="paint4_linear_24_355" x1="222.782" y1="113.923" x2="172.859" y2="113.707" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00C3FF"/>
+<stop offset="1" stop-color="#0033CC"/>
+</linearGradient>
+<linearGradient id="paint5_linear_24_355" x1="219.568" y1="26.5035" x2="1.1433" y2="23.7991" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00C3FF"/>
+<stop offset="1" stop-color="#0033CC"/>
+</linearGradient>
+<linearGradient id="paint6_linear_24_355" x1="130.517" y1="12.5734" x2="105.478" y2="51.8754" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00C3FF"/>
+<stop offset="1" stop-color="#0033CC"/>
+</linearGradient>
+<linearGradient id="paint7_linear_24_355" x1="219.834" y1="5.08517" x2="1.4084" y2="2.3809" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00C3FF"/>
+<stop offset="1" stop-color="#0033CC"/>
+</linearGradient>
+<linearGradient id="paint8_linear_24_355" x1="230.004" y1="120.285" x2="170.258" y2="120.027" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00C3FF"/>
+<stop offset="1" stop-color="#0033CC"/>
+</linearGradient>
+<linearGradient id="paint9_linear_24_355" x1="135.376" y1="15.6689" x2="110.337" y2="54.9711" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00C3FF"/>
+<stop offset="1" stop-color="#0033CC"/>
+</linearGradient>
+<linearGradient id="paint10_linear_24_355" x1="219.764" y1="9.9664" x2="1.34814" y2="7.26213" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00C3FF"/>
+<stop offset="1" stop-color="#0033CC"/>
+</linearGradient>
+<linearGradient id="paint11_linear_24_355" x1="228.602" y1="119.855" x2="171.402" y2="119.607" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00C3FF"/>
+<stop offset="1" stop-color="#0033CC"/>
+</linearGradient>
+<linearGradient id="paint12_linear_24_355" x1="219.722" y1="14.8136" x2="1.29139" y2="12.1092" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00C3FF"/>
+<stop offset="1" stop-color="#0033CC"/>
+</linearGradient>
+<linearGradient id="paint13_linear_24_355" x1="51.2489" y1="160.225" x2="73.4947" y2="46.5831" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00C3FF"/>
+<stop offset="1" stop-color="#0033CC"/>
+</linearGradient>
+<linearGradient id="paint14_linear_24_355" x1="21.5574" y1="154.415" x2="43.8038" y2="40.7703" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00C3FF"/>
+<stop offset="1" stop-color="#0033CC"/>
+</linearGradient>
+<linearGradient id="paint15_linear_24_355" x1="27.7022" y1="155.618" x2="49.951" y2="41.9682" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00C3FF"/>
+<stop offset="1" stop-color="#0033CC"/>
+</linearGradient>
+<linearGradient id="paint16_linear_24_355" x1="49.6028" y1="159.913" x2="71.8502" y2="46.2623" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00C3FF"/>
+<stop offset="1" stop-color="#0033CC"/>
+</linearGradient>
+<linearGradient id="paint17_linear_24_355" x1="56.5121" y1="161.258" x2="78.7586" y2="47.613" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00C3FF"/>
+<stop offset="1" stop-color="#0033CC"/>
+</linearGradient>
+<linearGradient id="paint18_linear_24_355" x1="54.7394" y1="160.909" x2="76.9849" y2="47.2686" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00C3FF"/>
+<stop offset="1" stop-color="#0033CC"/>
+</linearGradient>
+<linearGradient id="paint19_linear_24_355" x1="66.2107" y1="79.1225" x2="66.9806" y2="59.8661" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00C3FF"/>
+<stop offset="1" stop-color="#0033CC"/>
+</linearGradient>
+<linearGradient id="paint20_linear_24_355" x1="52.757" y1="78.6153" x2="53.5251" y2="59.3992" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00C3FF"/>
+<stop offset="1" stop-color="#0033CC"/>
+</linearGradient>
+<linearGradient id="paint21_linear_24_355" x1="59.4862" y1="78.8685" x2="60.2552" y2="59.6323" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00C3FF"/>
+<stop offset="1" stop-color="#0033CC"/>
+</linearGradient>
+<linearGradient id="paint22_linear_24_355" x1="72.9408" y1="79.3767" x2="73.7112" y2="60.1003" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00C3FF"/>
+<stop offset="1" stop-color="#0033CC"/>
+</linearGradient>
+<linearGradient id="paint23_linear_24_355" x1="65.8153" y1="80.9999" x2="88.0224" y2="47.6059" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00C3FF"/>
+<stop offset="1" stop-color="#0033CC"/>
+</linearGradient>
+</defs>
+</svg>
+          </div>
+          <div class="footer__text_top footer__text_top-under">МЫ СМЕЛО СМОТРИМ В <br/> БУДУЩЕЕ!
+            <div class="footer__text_top-over">МЫ СМЕЛО СМОТРИМ В <br/> БУДУЩЕЕ!</div>
+          </div>
+          <div class="footer__text_bottom">СОВЕРШАЙТЕ НЕВЕРОЯТНОЕ ВМЕСТЕ С НАМИ!</div>
+        </div>
+      </footer><div class="video-modal-frame">
+</div>
+      <div class="help__button">ПОДСКАЗКИ
+        <div class="help__button-closed">X</div>
+      </div>
+    </div>
+    <script src="js/libs.min.js?_v=20220116102817"></script>
+    <script src="js/app.min.js?_v=20220116102817"></script>
+  </body>
+</html>

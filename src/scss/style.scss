@@ -1,0 +1,11 @@
+@import '_fonts';
+@import '_reset';
+@import '_variables';
+@import '_global';
+
+
+
+@import 'libs';
+@import '../components/header/header';
+@import '../components/footer/footer';
+@import 'general';

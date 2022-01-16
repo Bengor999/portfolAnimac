@@ -1,0 +1,40 @@
+
+html {
+    font-family: Montserrat, Georgia, "PT Serif";
+    //     //Отменяем выделение текста в кнопках
+    -webkit-user-select: none;
+    /* user-select -- это нестандартное свойство */
+
+    -moz-user-select: none;
+    /* поэтому нужны префиксы */
+
+    -ms-user-select: none;
+
+}
+.wrapper {
+    overflow: hidden;
+    background-color: #001031;
+}
+.container {
+    max-width: 1240px;
+    margin: auto;
+}
+a:active, /* активная/посещенная ссылка */
+a:hover,  /* при наведении */
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+// button {
+//     //Отменяем выделение текста в кнопках
+//     -webkit-user-select: none;
+//     /* user-select -- это нестандартное свойство */
+
+//     -moz-user-select: none;
+//     /* поэтому нужны префиксы */
+
+//     -ms-user-select: none;
+// }
+
+
+
