@@ -34,6 +34,16 @@ export default function controlSwiper() {
     //   control: swiper2
     // },
   });
+  //вычисляем значение для слайдера в зависимости от ширины экрана
+  function slidesPerViewValue() {
+    
+    if (document.documentElement.clientWidth >= 1000) {
+      return 1.8;
+    } else {
+      return 1.3;
+    }
+  };
+  
 
   swiper2 = new Swiper('.right-slider', {
     //центрируем слайд
@@ -43,7 +53,7 @@ export default function controlSwiper() {
     nested: true,
     direction: 'vertical',
     loop: false,
-    slidesPerView: 1.8,
+    slidesPerView: slidesPerViewValue(),
     updateOnWindowResize: true,
     autoHeight: true,
     // breakpoints: {
@@ -62,6 +72,9 @@ export default function controlSwiper() {
     //   control: swiper1
     // },
   });
+
+
+
   console.log(swiper1);
   
   swiper1.controller.control = swiper2;
